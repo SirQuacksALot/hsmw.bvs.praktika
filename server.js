@@ -17,7 +17,7 @@ app.route('/')
   })
 
 
-app.route('/interaction')
+app.route('/browser')
   .get(function(req, res){
     res.sendFile(path.join(__dirname, './','browser.html'));
   })
