@@ -13,9 +13,14 @@ app.use(express.urlencoded()); //JSON bodies parsen
 
 app.route('/')
   .get(function(req, res){
-    res.sendFile(path.join(__dirname, './','browser.html'));
+    res.sendFile(path.join(__dirname, './','index.html'));
   })
 
+
+app.route('/interaction')
+  .get(function(req, res){
+    res.sendFile(path.join(__dirname, './','browser.html'));
+  })
 
 // Rest-Api
 
