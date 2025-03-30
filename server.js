@@ -6,7 +6,7 @@ app.listen(3000);
 
 // Setting up the routes
 
-// Mit rxpress.Router kann noch eine Middleware zum Routenhandling eingefügt werden.
+// Mit express.Router kann noch eine Middleware zum Routenhandling eingefügt werden.
 
 app.use(express.json()); // URL encoded bodies parsen
 app.use(express.urlencoded()); //JSON bodies parsen
