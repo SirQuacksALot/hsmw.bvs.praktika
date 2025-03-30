@@ -1,7 +1,7 @@
 var express  = require('express');
 var userList = require('./userList');
 var path     = require('path');
-var app = express();
+var app      = express();
 app.listen(3000);
 
 // Setting up the routes
