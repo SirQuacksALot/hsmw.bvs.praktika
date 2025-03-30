@@ -1,0 +1,12 @@
+{
+    "name": "pr1-bvs",
+    "version": "1.0.0",
+    "author": "Sebastian sglass@hs-mittweida.de",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "latest",
+        "mysql": "latest"
+    }
+}
